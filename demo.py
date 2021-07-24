@@ -124,6 +124,7 @@ print(b)'''
 
 #Ways to remove i’th character from 
 #string in Python
+'''
 s1 = input("Enter string") #madhavan
 n = int(input("Enter Character place")) #3
 count = 0
@@ -131,8 +132,9 @@ for i in s1:
 	count = count+1
 	if count == n:
 		s2=s1.replace(i,'')
+		break
 print(s2)
-
+'''
 '''
 l = int(input("Enter length"))
 a=[]
@@ -145,3 +147,32 @@ c=[]
 for i in b:
 	c.append(i)
 print(c)'''
+
+
+#Class 24/07
+'''
+s1 = input("Enter String\t")
+l = len(s1)
+count = 0
+for i in s1: # k
+	if i!=' ':
+		count = count+1 #6
+print("Normal len",l)
+print("Avoid space",count)
+'''
+#Python program to print even
+# length words in a string
+'''
+l = int(input("length of list\t"))
+a=[]
+b=[]
+for i in range(l):
+	ele = input("Enter string\t")
+	a.append(ele)
+for i in a:
+	length = len(i)
+	if length%2==0:
+		b.append(i)
+print(b)
+'''
+
